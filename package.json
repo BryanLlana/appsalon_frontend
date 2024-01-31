@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/onest": "^5.0.2",
     "@formkit/themes": "^1.4.0",
     "@formkit/vue": "^1.4.0",
     "axios": "^1.6.5",
