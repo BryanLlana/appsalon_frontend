@@ -32,11 +32,11 @@
       <RouterLink
         :to="{ name: 'edit-appointment', params: { id: appointment.id }}"
         class="bg-slate-600 rounded-lg p-3 text-white text-center text-sm uppercase font-black flex-1 md:flex-none"
-      >Editar Cita</RouterLink>
+      >Editar</RouterLink>
       <button
         class="bg-red-600 rounded-lg p-3 text-white text-sm uppercase font-black flex-1 md:flex-none"
         @click="appointmentStore.canceleAppointment(appointment.id)"
-      >Cancelar Cita</button>
+      >Cancelar</button>
     </div>
   </div>
 </template>
